@@ -2,11 +2,11 @@
 import { useEffect, useRef } from "react";
 
 const transport = [
-  { icon: "🚶", mode: "On foot", detail: "Fully accessible from all entrances. The Welcome Hall is most easily accessed from the main entrance on Civic Way." },
-  { icon: "🚂", mode: "By rail", detail: "7-minute walk (lightly uphill) from Tunbridge Wells station. Alternatively, 1 stop on various buses. Book directly with Southeastern to pay no booking fees." },
-  { icon: "🚌", mode: "By bus", detail: "Most Royal Tunbridge Wells bus services stop right outside The Amelia Scott at the Tunbridge Wells War Memorial or by Royal Victoria Place." },
-  { icon: "🚗", mode: "By car", detail: "Parking available at Crescent Road, Royal Victoria Place and Meadow Road multi-storey car parks." },
-  { icon: "🚲", mode: "By cycle", detail: "Cycle racks are located near the building." },
+  { icon: "🚶", mode: "On foot", detail: "Once you’ve arrived at the centre of Royal Tunbridge Wells, The Amelia Scott is fully accessible from all entrances, and the Welcome Hall is most easily accessed from the main entrance on Civic Way." },
+  { icon: "🚲", mode: "By cycle", detail: "There are cycle racks located near the building."},
+  { icon: "🚂", mode: "By rail", detail: "It is a 7-minute, lightly uphill walk from Tunbridge Wells station to The Amelia Scott. Alternatively, it is 1 stop on a variety of buses. You can ", link: "https://ticket.southeasternrailway.co.uk/search?utm_source=partner_site&utm_medium=outboundURL&utm_campaign=theameliascott", linkText: "book directly with Southeastern to pay no booking fees."},
+  { icon: "🚌", mode: "By bus", detail: "Most of the bus services for Royal Tunbridge Wells town centre stop right outside The Amelia Scott at the Tunbridge Wells War Memorial or by Royal Victoria Place shopping centre." },
+  { icon: "🚗", mode: "By car", detail: "Parking is available at Crescent Road, Royal Victoria Place and Meadow Road multi-storey car parks." },
 ];
 
 const VENUE_LAT = 51.13295;
@@ -217,7 +217,7 @@ export default function Location() {
             >
               <h3 className="font-display font-black mb-2" style={{ color: "#f0e8d0" }}>About The Amelia Scott</h3>
               <p className="font-body text-sm leading-relaxed" style={{ color: "#a89878" }}>
-                The Amelia Scott is in the heart of Royal Tunbridge Wells town centre, easy to visit on foot, by cycle, by rail, by bus, and by road. A modern cultural hub housing multiple community and arts organisations, it provides an accessible and inspiring setting for the Rolling Well Conference.
+                The Amelia Scott is in the heart of Royal Tunbridge Wells town centre, and is easy to visit on foot, by cycle, by rail, by bus, and by road.
               </p>
             </div>
           </div>
@@ -237,7 +237,11 @@ export default function Location() {
                   <span className="text-2xl w-9 shrink-0 mt-0.5">{t.icon}</span>
                   <div>
                     <div className="font-display font-black text-sm mb-1" style={{ color: "#f0e8d0" }}>{t.mode}</div>
-                    <p className="font-body text-xs leading-relaxed" style={{ color: "#a89878" }}>{t.detail}</p>
+                    <p className="font-body text-xs leading-relaxed" style={{ color: "#a89878" }}>{t.detail}
+                    { t.link && (
+                      <a className="underline font-semibold" href={t.link}>{t.linkText}</a>
+                    )}
+                    </p>
                   </div>
                 </div>
               ))}

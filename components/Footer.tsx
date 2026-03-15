@@ -11,16 +11,16 @@ export default function Footer() {
   ];
 
   return (
-    <footer style={{ background: "#1a1208", borderTop: "1px solid rgba(255,255,255,0.06)" }} className="py-14 px-6">
+    <footer style={{ background: "#1a1208", borderTop: "1px solid rgba(255,255,255,0.06)" }} className="py-10 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-10 mb-10">
+        <div className="grid md:grid-cols-3 gap-10 mb-8">
           <div>
             <Image
-              src="/logo-dice.png"
+              src="/logo.png"
               alt="Rolling Well"
               width={160}
               height={70}
-              className="h-12 w-auto object-contain mb-4"
+              className="h-14 w-auto object-contain -left-3 relative"
               style={{ mixBlendMode: "screen" }}
             />
             <p className="font-body text-sm leading-relaxed mb-2" style={{ color: "#8a7a60" }}>

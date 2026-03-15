@@ -23,7 +23,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`sticky top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled ? "shadow-md py-2" : "py-3"
       }`}
       style={{
@@ -39,7 +39,7 @@ export default function Navbar() {
             alt="Rolling Well — Gaming for health and wellbeing"
             width={180}
             height={80}
-            className="h-11 w-auto object-contain"
+            className="h-14 w-auto object-contain"
             style={{ mixBlendMode: "multiply" }}
             priority
           />

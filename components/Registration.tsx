@@ -15,11 +15,11 @@ export default function Registration() {
   const days = [
     {
       day: "Day 1", date: "Wednesday 29 July 2026", price: "£10",
-      features: ["Research & applied talks", "Keynote presentations", "Workshop sessions", "Lunch & refreshments", "Networking opportunities"],
+      features: ["Day one activities to be confirmed"],
     },
     {
       day: "Day 2", date: "Thursday 30 July 2026", price: "£10",
-      features: ["Case study presentations", "Hands-on TTRPG activities", "Delphi study session", "Lunch & refreshments", "Collaborative planning"],
+      features: ["Day two activities to be confirmed"],
     },
   ];
 
@@ -33,9 +33,43 @@ export default function Registration() {
         >
           Secure your place
         </h2>
-        <p className="reveal reveal-delay-2 font-body text-base max-w-xl mb-12 leading-relaxed" style={{ color: "#c8b890" }}>
+
+        {/* <p className="reveal reveal-delay-2 font-body text-base max-w-xl mb-12 leading-relaxed" style={{ color: "#c8b890" }}>
           Registration opens in early April 2026. There is a <strong style={{ color: "#f0e8d0" }}>£10 per day</strong> fee to help support the event — lunch and refreshments are provided throughout both days.
-        </p>
+        </p> */}
+
+        {/* Status notice */}
+        <div
+          className="reveal reveal-delay-4 rounded-2xl p-6 my-6 flex flex-col md:flex-row md:items-center justify-between gap-5"
+          style={{ border: "1px solid rgba(232,115,26,0.4)", background: "rgba(232,115,26,0.1)" }}
+        >
+          <div>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="w-2 h-2 rounded-full bg-[#e8731a] animate-pulse" />
+              <span className="font-body text-xs font-bold uppercase tracking-widest" style={{ color: "#e8731a" }}>
+                Registration opens April 2026
+              </span>
+            </div>
+            <p className="font-body text-sm leading-relaxed" style={{ color: "#c8b890" }}>
+              Email us to be notified when registration opens, or get in touch if you're interested in presenting or running a workshop.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            <a
+              href="mailto:event@rollingwell.org.uk?subject=Please notify me when registration opens"
+              className="btn-primary !text-sm whitespace-nowrap text-center"
+            >
+              Notify me
+            </a>
+            <a
+              href="mailto:event@rollingwell.org.uk?subject=Interest in presenting at Rolling Well 2026"
+              className="font-body text-sm font-semibold px-5 py-3 rounded-lg text-center whitespace-nowrap transition-colors"
+              style={{ border: "1.5px solid rgba(240,224,192,0.3)", color: "#f0e0c0" }}
+            >
+              Submit a talk
+            </a>
+          </div>
+        </div>
 
         <div className="grid md:grid-cols-2 gap-5 mb-10">
           {days.map((d, i) => (
@@ -65,39 +99,6 @@ export default function Registration() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Status notice */}
-        <div
-          className="reveal reveal-delay-4 rounded-2xl p-6 flex flex-col md:flex-row md:items-center justify-between gap-5"
-          style={{ border: "1px solid rgba(232,115,26,0.4)", background: "rgba(232,115,26,0.1)" }}
-        >
-          <div>
-            <div className="flex items-center gap-2 mb-2">
-              <span className="w-2 h-2 rounded-full bg-[#e8731a] animate-pulse" />
-              <span className="font-body text-xs font-bold uppercase tracking-widest" style={{ color: "#e8731a" }}>
-                Registration opens April 2026
-              </span>
-            </div>
-            <p className="font-body text-sm leading-relaxed" style={{ color: "#c8b890" }}>
-              Email us to be notified when registration opens, or get in touch if you're interested in presenting or running a workshop.
-            </p>
-          </div>
-          <div className="flex flex-col sm:flex-row gap-3 shrink-0">
-            <a
-              href="mailto:event@rollingwell.org.uk?subject=Please notify me when registration opens"
-              className="btn-primary !text-sm whitespace-nowrap text-center"
-            >
-              Notify me
-            </a>
-            <a
-              href="mailto:event@rollingwell.org.uk?subject=Interest in presenting at Rolling Well 2026"
-              className="font-body text-sm font-semibold px-5 py-3 rounded-lg text-center whitespace-nowrap transition-colors"
-              style={{ border: "1.5px solid rgba(240,224,192,0.3)", color: "#f0e0c0" }}
-            >
-              Submit a talk
-            </a>
-          </div>
         </div>
       </div>
     </section>

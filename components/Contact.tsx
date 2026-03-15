@@ -30,8 +30,8 @@ export default function Contact() {
           We&apos;d love to hear<br />
           <span style={{ color: "#29abe2" }}>from you.</span>
         </h2>
-        <p className="reveal reveal-delay-2 font-body text-base max-w-xl mb-12 leading-relaxed" style={{ color: "#5a4a30" }}>
-          Whether you&apos;re a publisher, academic, clinician, educator or simply interested in games for social good — your message is welcome. We aim to respond to all enquiries as promptly as possible.
+        <p className="reveal reveal-delay-2 font-body text-base max-w-xl mb-8 leading-relaxed" style={{ color: "#5a4a30" }}>
+          If you have questions about Rolling Well, ticketing, abstract submissions, partnerships, accessibility, or anything else related to the event, please get in touch.
         </p>
 
         {/* Primary email */}
@@ -53,7 +53,7 @@ export default function Contact() {
         </div>
 
         {/* Topic grid */}
-        <p className="reveal font-body text-xs font-bold uppercase tracking-widest mb-4" style={{ color: "#7a6a50" }}>Get in touch about…</p>
+        {/* <p className="reveal font-body text-xs font-bold uppercase tracking-widest mb-4" style={{ color: "#7a6a50" }}>Get in touch about…</p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-10">
           {reasons.map((r, i) => (
             <a
@@ -66,7 +66,7 @@ export default function Contact() {
               <span className="font-body text-xs leading-relaxed" style={{ color: "#6a5a40" }}>{r.desc}</span>
             </a>
           ))}
-        </div>
+        </div> */}
 
         {/* Taglines */}
         <div className="reveal reveal-delay-3 grid md:grid-cols-2 gap-4">
@@ -82,6 +82,9 @@ export default function Contact() {
             </div>
           ))}
         </div>
+        <p className="reveal reveal-delay-2 font-body text-base mt-12 leading-relaxed" style={{ color: "#5a4a30" }}>
+          We aim to respond to all enquiries as promptly as possible. Whether you’re a publisher, academic, clinician, educator or simply interested in games for social good, we welcome your message.
+        </p>
       </div>
     </section>
   );
