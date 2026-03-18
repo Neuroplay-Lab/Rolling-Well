@@ -9,6 +9,7 @@ interface CornerArrowsProps {
   right?: number;
 }
 function CornerArrows({rotation = "0deg", top, left, bottom, right} : CornerArrowsProps) {
+  // default rotation is for arrows facing right and down
   return (
     <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg"
       style={{ position: "absolute", top: top, left: left, bottom: bottom, right: right, pointerEvents: "none", rotate: rotation}}>

@@ -6,7 +6,7 @@ const partners = [
   { abbr: "UoP", name: "University of Plymouth", img: "/university-of-plymouth-vector-logo.webp" },
   { abbr: "MGC", name: "Manchester Game Centre", img: "/manc-game-centre.webp" },
   { abbr: "GiL", name: "Game in Lab", img: "/GameInLab.webp" },
-  { abbr: "TAS", name: "The Amelia Scott", img: "/the-amelia.webp" },
+  { abbr: "TAS", name: "The Amelia Scott", img: "/the-amelia.png" },
   { abbr: "MMU", name: "Manchester Metropolitan University", img: "/Manchester-Metropolitan-University-logo-1.webp" },
 ];
 

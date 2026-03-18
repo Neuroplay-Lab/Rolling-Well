@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 
 const transport = [
   { icon: "🚶", mode: "On foot", detail: "Once you’ve arrived at the centre of Royal Tunbridge Wells, The Amelia Scott is fully accessible from all entrances, and the Welcome Hall is most easily accessed from the main entrance on Civic Way." },
@@ -121,13 +122,13 @@ export default function Location() {
       <div className="max-w-6xl mx-auto">
 
         <div className="section-label reveal mb-5">Location</div>
-        <h2
+          <h2
           className="reveal reveal-delay-1 font-display font-black mb-10"
-          style={{ fontSize: "clamp(2rem,4.5vw,3.2rem)", lineHeight: 1.1, color: "#f0e8d0" }}
-        >
-          The Amelia Scott<br />
-          <span style={{ color: "#29abe2" }}>Royal Tunbridge Wells</span>
-        </h2>
+            style={{ fontSize: "clamp(2rem,4.5vw,3.2rem)", lineHeight: 1.1, color: "#f0e8d0" }}
+          >
+            The Amelia Scott<br />
+            <span style={{ color: "#29abe2" }}>Royal Tunbridge Wells</span>
+          </h2>
 
         {/* ── MAP ── */}
         <div
@@ -166,7 +167,7 @@ export default function Location() {
         <div className="grid lg:grid-cols-2 gap-10">
 
           {/* Venue card */}
-          <div className="space-y-5">
+          <div className="space-y-5 lg:mt-2 lg:space-y-8">
             <div
               className="reveal rounded-2xl overflow-hidden"
               style={{ background: "rgba(255,255,255,0.07)", border: "1px solid rgba(41,171,226,0.25)" }}
@@ -215,9 +216,19 @@ export default function Location() {
               className="reveal reveal-delay-2 rounded-2xl p-5"
               style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.08)" }}
             >
-              <h3 className="font-display font-black mb-2" style={{ color: "#f0e8d0" }}>About The Amelia Scott</h3>
+              <div className="flex space-x-2 mb-2">
+                <h3 className="font-display font-black" style={{ color: "#f0e8d0" }}>About The Amelia Scott</h3>
+                <Image
+                  src="the-amelia-logo.png"
+                  alt="Logo for The Amelia Scott"
+                  width={616}
+                  height={616}
+                  className="relative -top-[3px]"
+                  style={{maxHeight: "24px", maxWidth: "24px"}}
+                />
+              </div>
               <p className="font-body text-sm leading-relaxed" style={{ color: "#a89878" }}>
-                The Amelia Scott is in the heart of Royal Tunbridge Wells town centre, and is easy to visit on foot, by cycle, by rail, by bus, and by road.
+                The Amelia Scott is a unique centre that brings people and culture together. It is a place for meeting, getting help, learning, and socialising, with a museum, art gallery, libraries, study spaces, cafe, and council services all under one roof.
               </p>
             </div>
           </div>
