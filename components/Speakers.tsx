@@ -5,7 +5,7 @@ const sessionTypes = [
   { icon: "🎤", label: "Keynote Talks", desc: "Leading voices in TTRPG research and applied practice" },
   { icon: "📊", label: "Research Presentations", desc: "Peer-reviewed findings from academic teams across the UK" },
   { icon: "🏥", label: "Applied Case Studies", desc: "Real-world deployments in clinical, community and education settings" },
-  { icon: "🎮", label: "Interactive Workshops", desc: "Hands-on sessions — come ready to roll dice and reflect" },
+  { icon: "🎲", label: "Interactive Workshops", desc: "Hands-on sessions — come ready to roll dice and reflect" },
   { icon: "💬", label: "Panel Discussions", desc: "Cross-sector dialogue on challenges and emerging best practices" },
   { icon: "🤝", label: "Networking", desc: "Structured meet-and-greet opportunities to forge new collaborations" },
 ];

@@ -101,8 +101,9 @@ export default function Hero() {
             className="rounded-2xl overflow-hidden"
             style={{ border: "1.5px solid rgba(41,171,226,0.25)", background: "rgba(255,255,255,0.65)", backdropFilter: "blur(8px)" }}
           >
-            <div style={{ background: "#29abe2" }} className="px-6 py-3.5">
+            <div style={{ background: "#29abe2" }} className="px-6 py-4 flex items-center justify-between">
               <span className="font-display font-black text-white">Event at a Glance</span>
+              <span className="text-white text-lg">🎲</span>
             </div>
             <div className="p-6 space-y-4">
               {[

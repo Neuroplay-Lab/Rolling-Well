@@ -29,7 +29,7 @@ export default function Footer() {
             </p>
             <p className="font-body text-xs" style={{ color: "#6a5a40" }}>
               Supported by{" "}
-              <a href="#" className="text-[#29abe2] hover:text-white transition-colors">Game in Lab</a>
+              <a href="https://www.game-in-lab.org/en/310-2/" target="_blank" className="text-[#29abe2] hover:text-white transition-colors">Game in Lab</a>
             </p>
           </div>
 
