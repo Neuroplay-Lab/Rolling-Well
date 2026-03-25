@@ -14,11 +14,11 @@ export default function Registration() {
 
   const days = [
     {
-      day: "Day 1", date: "Wednesday 29 July 2026", price: "£10",
+      day: "Day 1", date: "Wednesday 29 July 2026", price: "£12",
       features: ["Day one activities to be confirmed"],
     },
     {
-      day: "Day 2", date: "Thursday 30 July 2026", price: "£10",
+      day: "Day 2", date: "Thursday 30 July 2026", price: "£12",
       features: ["Day two activities to be confirmed"],
     },
   ];
