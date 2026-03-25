@@ -42,9 +42,15 @@ const venueOrganisers = [
     bio2: "Currently part of the Solace Springboard programme, I’m focused on the wider role that civic institutions can play in prevention, belonging and the future of local government. I’m driven by collaboration, clarity, and helping teams and places thrive.",
     img: "/jeremy.webp",
   },
+  // {
+  //   initials: "AC", name: "Ally Curson", role: "Audience Development and Programme Manager", institution: "The Amelia Scott, Tunbridge Wells",
+  //   bio: "",
+  // },
   {
-    initials: "AC", name: "Ally Curson", role: "Audience Development and Programme Manager", institution: "The Amelia Scott, Tunbridge Wells",
-    bio: "",
+    initials: "AS", name: "The Amelia Scott", role: "", institution: "Enriching Lives, Inspiring Learning",
+    bio: "The Amelia Scott is a unique centre that brings people and culture together. It is a place for meeting, getting help, learning, and socialising, with a museum, art gallery, libraries, study spaces, cafe, and council services all under one roof.",
+    img: "/the-amelia.png",
+    span2: true,
   },
 ];
 
@@ -119,7 +125,7 @@ export default function Organisers() {
 
         <p className="reveal font-body text-xs font-bold uppercase tracking-widest mb-5" style={{ color: "#7a6a50" }}>Venue &amp; Programme Team</p>
         <div className="grid md:grid-cols-2 gap-5 mb-14">
-          {venueOrganisers.map((o, i) => <OrgCard key={o.name} org={o} delay={(i % 2) + 1}/>)}
+          {venueOrganisers.map((o, i) => <OrgCard key={o.name} org={o} delay={(i % 2) + 1} span2={o.span2}/>)}
         </div>
       </div>
     </section>

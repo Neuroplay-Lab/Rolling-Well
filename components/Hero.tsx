@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import StatsBar from "./StatsBar";
 
 interface CornerArrowsProps {
   rotation?: string;
@@ -86,12 +87,14 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-3">
-              <a href="#registration" className="btn-primary">
-                Register Now — £10/day
+              {/* TODO: Uncomment below when registration opens */}
+              {/* <a href="#registration" className="btn-primary">
+                Register Now — £12/day
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </a>
+              <a href="#about" className="btn-outline">Learn more</a> */}
               <a href="#about" className="btn-outline">Learn more</a>
             </div>
           </div>
@@ -109,7 +112,7 @@ export default function Hero() {
               {[
                 { icon: "📅", label: "Dates", value: "29–30 July 2026" },
                 { icon: "📍", label: "Venue", value: "The Amelia Scott, Royal Tunbridge Wells" },
-                { icon: "🎟️", label: "Fee", value: "£10 per day — lunch & refreshments included" },
+                { icon: "🎟️", label: "Fee", value: "£12 per day — lunch & refreshments included" },
                 { icon: "👥", label: "For", value: "Educators, researchers, clinicians & community organisers" },
                 { icon: "✉️", label: "Contact", value: "event@rollingwell.org.uk", isEmail: true },
               ].map((item) => (
@@ -130,22 +133,7 @@ export default function Hero() {
         </div>
 
         {/* Stats bar */}
-        <div
-          className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 rounded-2xl p-6"
-          style={{ background: "rgba(255,255,255,0.55)", border: "1px solid rgba(0,0,0,0.07)" }}
-        >
-          {[
-            { value: "2", label: "Conference days" },
-            { value: "£10", label: "Per day (incl. lunch)" },
-            { value: "4", label: "Lead organisers" },
-            { value: "5", label: "Partner organisations" },
-          ].map((s) => (
-            <div key={s.label} className="text-center">
-              <div className="font-display font-black text-3xl text-[#29abe2]">{s.value}</div>
-              <div className="font-body text-xs text-[#7a6a50] mt-1 uppercase tracking-wide">{s.label}</div>
-            </div>
-          ))}
-        </div>
+        <StatsBar />
       </div>
     </section>
   );

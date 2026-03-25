@@ -5,7 +5,6 @@ export default function Ticker() {
     "Neurodiversity & Games",
     "Clinical Applications",
     "Delphi Study",
-    "UKRI Research",
     "Community Practice",
     "Academic Collaboration",
     "Gaming for Health",
