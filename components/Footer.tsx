@@ -54,9 +54,10 @@ export default function Footer() {
             <a href="https://rollingwell.org.uk" className="font-body text-sm hover:text-white transition-colors block mb-6" style={{ color: "#8a7a60" }}>
               rollingwell.org.uk
             </a>
-            <a href="#registration" className="btn-primary !text-sm">
+            {/* TODO: Uncomment when registration opens */}
+            {/* <a href="#registration" className="btn-primary !text-sm">
               Register Now
-            </a>
+            </a> */}
           </div>
         </div>
 

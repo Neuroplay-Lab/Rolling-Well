@@ -56,14 +56,15 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-          <li>
+          {/* TODO: Uncomment when registration opens */}
+          {/* <li>
             <a
               href="#registration"
               className="btn-primary !py-2.5 !px-5 !text-sm"
             >
               Register Now
             </a>
-          </li>
+          </li> */}
         </ul>
 
         <button
@@ -94,11 +95,12 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-          <li className="pt-3">
+          {/* TODO: Uncomment when registration opens */}
+          {/* <li className="pt-3">
             <a href="#registration" onClick={() => setMenuOpen(false)} className="btn-primary block text-center !text-sm">
               Register Now
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </header>
