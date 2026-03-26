@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useRef } from "react";
-import Image from "next/image";
 import Partners from "./Partners";
 
 export default function About() {
@@ -38,16 +37,28 @@ export default function About() {
             </h2>
             <div className="space-y-4">
               {[
-                "Drs Gray Atherton and Liam Cross from the University of Plymouth, together with Dr Chloe Germaine and Professor Paul Wake from Manchester Metropolitan University, are pleased to announce a two‑day workshop for UK‑based educators, researchers, clinicians, and community organisers who use or study tabletop role‑playing games in their professional practice.",
-                "Tabletop role‑playing games (TTRPGs) are gaining recognition as meaningful tools for supporting wellbeing, social connection, and personal growth. This event brings together practitioners, researchers, and community organisers to explore how TTRPGs can be used effectively in wellbeing-focused contexts.",
-                "Join us for a two-day workshop (July 29-30) where you will have the chance to engage in talks, case studies, and hands-on activities to share expertise and foster collaboration across the UK TTRPG academic and social care communities.",
-                "Participants will have the opportunity to contribute to a Delphi study on current benefits, challenges, and best practices, to be published in a peer-reviewed journal, alongside an open-access white paper summarising findings and practical guidance.",
-                "The event will also support the preparation of a large-scale UKRI grant application to fund further structured research into TTRPGs’ potential to enhance wellbeing, creativity, and social engagement in diverse care settings.",
+                "Hosted by the University of Plymouth, Manchester Metropolitan University and The Amelia Scott Centre, and funded by Game in Lab, Rolling Well is a two-day conference bringing together practitioners, researchers, clinicians and community organisers to explore how tabletop role-playing games can support wellbeing, creativity and social connection.",
+                "While the primary function of tabletop roleplaying games [TTRPGs] is to provide entertainment and engagement, there is growing interest amongst members of the educational and therapeutic communities to expand its offerings to those who may benefit cognitively and emotionally from roleplay.",
+                "Despite this growing interest in using TTRPGs for educational and therapeutic purposes, there is limited information about how they can be used in such settings. Sardon and Devlin-Scherer (2016), for instance, discuss the ways in which game-based curriculums could be beneficial in educational settings while also noting how there may be resistance from educators who may not see them as pertinent or worth the extra time and cost for implementation. Similarly, a scoping review on TTRPGs for therapeutic purposes (Yuliawati et al., 2024) showed that while there were numerous qualitative studies on the mental health benefits of TTRPGs, there was a distinct lack of controlled studies detailing its effects. In line with this, Ben-Ezra et al., (2018) found that while many mental health practitioners were interested in incorporating TTRPGs into their formal practice, they did not feel confident in their ability to learn ways to do this effectively.  As such, while TTRPGs show great promise for improving outcomes for students and those in therapy, there is a gap in how to collate and disseminate best practice in tangible, easily adoptable ways.",
+                "At Rolling Well we aim to tackle these questions and begin to close evidence gaps. Therefore, we welcome proposals from academics, practitioners and game designers that address (but are not limited to) the following themes:",
               ].map((p, i) => (
                 <p key={i} className={`reveal reveal-delay-${i + 1} font-body text-base leading-relaxed`} style={{ color: "#3d3020" }}>
                   {p}
                 </p>
               ))}
+              <ul className="list-disc list-outside pl-5">
+                {[
+                  "RPGs and social connection",
+                  "RPG design for wellbeing.",
+                  "Therapeutic applications of roleplaying games, including their use in mental health, social work, or community practice.",
+                  "Wellbeing in RPG communities.",
+                  "RPGs in educational settings",
+                  "RPGs and neurodivergence",
+                  "RPGs and identity exploration",
+                ].map((p, i) => (
+                  <li key={i} className={`reveal reveal-delay-${i + 1} font-body text-base leading-relaxed`} style={{ color: "#3d3020" }}>{p}</li>
+                ))}
+              </ul>
             </div>
           </div>
 
@@ -65,7 +76,7 @@ export default function About() {
                 {[
                   { label: "Dates", value: "29–30 July 2026 (Wed–Thu)", icon: "📅" },
                   { label: "Venue", value: "The Amelia Scott, Royal Tunbridge Wells", icon: "📍" },
-                  { label: "Fee", value: "£10 per day — lunch & refreshments included", icon: "🎟️" },
+                  { label: "Fee", value: "£12 per day — lunch & refreshments included", icon: "🎟️" },
                   { label: "Who", value: "Educators, researchers, clinicians & community organisers", icon: "👥" },
                   { label: "Contact", value: "event@rollingwell.org.uk", icon: "✉️" },
                 ].map((item) => (
