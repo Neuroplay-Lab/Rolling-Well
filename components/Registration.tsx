@@ -62,7 +62,7 @@ export default function Registration() {
               Notify me
             </a>
             <a
-              href="mailto:event@rollingwell.org.uk?subject=Interest in presenting at Rolling Well 2026"
+              href="#submissions"
               className="font-body text-sm font-semibold px-5 py-3 rounded-lg text-center whitespace-nowrap transition-colors"
               style={{ border: "1.5px solid rgba(240,224,192,0.3)", color: "#f0e0c0" }}
             >

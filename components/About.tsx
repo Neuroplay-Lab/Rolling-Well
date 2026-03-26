@@ -26,7 +26,7 @@ export default function About() {
     <section id="about" ref={ref} className="py-24 px-6 topo-bg" style={{ background: "#faf6ee" }}>
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-20">
-          <div>
+          <div className="lg:row-span-2">
             <div className="section-label reveal mb-5">About the Conference</div>
             <h2
               className="reveal reveal-delay-1 font-display font-black mb-6"
@@ -101,26 +101,27 @@ export default function About() {
               </div> */}
             </div>
           </div>
+
+          {/* Six pillars */}
+          <div className="mb-20 lg:col-start-2">
+            <div className="reveal mb-6">
+              <div className="section-label">What to expect</div>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-col-1 gap-4">
+              {pillars.map((p, i) => (
+                <div
+                  key={p.title}
+                  className={`reveal reveal-delay-${(i % 3) + 1} rw-card p-5`}
+                >
+                  <div className="text-2xl mb-3">{p.icon}</div>
+                  <h3 className="font-display font-black text-base mb-2" style={{ color: "#1a1a1a" }}>{p.title}</h3>
+                  <p className="font-body text-sm leading-relaxed" style={{ color: "#6a5a40" }}>{p.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
-        {/* Six pillars */}
-        <div className="mb-20">
-          <div className="reveal mb-6">
-            <div className="section-label">What to expect</div>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {pillars.map((p, i) => (
-              <div
-                key={p.title}
-                className={`reveal reveal-delay-${(i % 3) + 1} rw-card p-5`}
-              >
-                <div className="text-2xl mb-3">{p.icon}</div>
-                <h3 className="font-display font-black text-base mb-2" style={{ color: "#1a1a1a" }}>{p.title}</h3>
-                <p className="font-body text-sm leading-relaxed" style={{ color: "#6a5a40" }}>{p.body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
         {/* Partner Orgs */}
       <div className="my-10">
         <div className="reveal mb-6">
