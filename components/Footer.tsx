@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   const links = [
     { label: "About", href: "#about" },
+    { label: "Contribute", href: "#submissions" },
     { label: "Registration", href: "#registration" },
     { label: "Speakers & Schedule", href: "#speakers" },
     { label: "Organisers", href: "#organisers" },

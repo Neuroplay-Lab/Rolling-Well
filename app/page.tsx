@@ -9,6 +9,7 @@ import Location from "@/components/Location";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Partners from "@/components/Partners";
+import Submissions from "@/components/Submissions";
 export default function Home() {
   return (
     <main>
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Ticker />
       <About />
+      <Submissions />
       <Registration />
       <Speakers />
       <Organisers />
