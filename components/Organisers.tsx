@@ -12,7 +12,7 @@ const mainOrganisers = [
     img: "/gray-liam-bio.webp",
   },
   {
-    initials: "CG", name: "Dr Chloé Germaine", role: "Reader, Department of English", institution: "Manchester Metropolitan University",
+    initials: "CG", name: "Dr Chloé Germaine", role: "Reader, Department of English", institution: "Manchester Metropolitan University, UK",
     bio: "Dr Chloé Germaine is a game designer, RPG writer, and academic based at Manchester Metropolitan University. Her RPG credits include co-authoring The Cthulhu Hack: Mother’s Love (Just Crunch Games) and contributing to The Between: Season 3. She is currently developing Rooted in Crisis, an eco-horror tabletop anthology built on the Trophy system, created with climate scientists and activists as a space for processing environmental grief and imagining collective futures.",
     bio2: "Her academic work spans Game Studies, Gothic fiction, and the Environmental Humanities, and she co-authored Material Game Studies: A Philosophy of Analogue Play (Bloomsbury, 2022). She co-directs the Manchester Game Centre and co-leads STRATEGIES, a Horizon Europe-funded project on sustainable transition in Europe’s game industries.",
     link: null,
@@ -20,11 +20,19 @@ const mainOrganisers = [
     img: "/Chloe2.webp",
   },
   {
-    initials: "PW", name: "Professor Paul Wake", role: "Professor of Game Studies", institution: "Manchester Metropolitan University",
+    initials: "PW", name: "Professor Paul Wake", role: "Professor of Game Studies", institution: "Manchester Metropolitan University, UK",
     bio: "Paul Wake is Professor of Game Studies at Manchester Metropolitan University and a co-director of the Manchester Game Centre. His research interests include game-making as a research method, games and communication, and game theory in the reading of literary texts. He has published articles on literary representations of casino games, 80s Adventure Gamebooks, and game design for communication. Paul also designs, uses, and plays games to start conversations about important societal topics. His recent work in this area has included Carbon City Zero: World Edition, a collaborative card game about the race to decarbonise the world’s cities, created with the climate action charity Possible and a global warming scenario for Klaus Teuber’s popular Catan®. His current game design project is Death Occurs Abroad, an archive building game set during the Second World War.",
     link: null,
     span2: false,
     img: "/paul.webp",
+  },
+  {
+    initials: "MWK", name: "Megan Wainwrite-Kendall", role: "Trainee in Doctorate of Clinical Psychology", institution: "University of Plymouth, UK",
+    bio: "Megan Wainwright-Kendall is a Trainee Clinical Psychologist at the University of Plymouth. Led by her own passion for games and background of working in mental health services, her doctorate research project aims to identify best practice guidelines for using tabletop role-playing games in health, education and social care settings. She hopes that this will widen the scope for people to utilise games to improve wellbeing.",
+    bio2: "Prior to the doctorate she worked as a cognitive-behavioural psychotherapist, with a specific interest in creating inclusive therapy spaces, working in forensic and community settings. As part of this, she has contributed to the development of good practice guidelines for delivering neuro-affirming therapy in a local NHS talking therapies service. She continues to work towards promoting creative inclusive practices in health, education and social care settings.",
+    link: null,
+    span2: false,
+    img: "/megan.webp",
   },
 ];
 
