@@ -27,7 +27,7 @@ const mainOrganisers = [
     img: "/paul.webp",
   },
   {
-    initials: "MWK", name: "Megan Wainwrite-Kendall", role: "Trainee in Doctorate of Clinical Psychology", institution: "University of Plymouth, UK",
+    initials: "MWK", name: "Megan Wainwright-Kendall", role: "Trainee in Doctorate of Clinical Psychology", institution: "University of Plymouth, UK",
     bio: "Megan Wainwright-Kendall is a Trainee Clinical Psychologist at the University of Plymouth. Led by her own passion for games and background of working in mental health services, her doctorate research project aims to identify best practice guidelines for using tabletop role-playing games in health, education and social care settings. She hopes that this will widen the scope for people to utilise games to improve wellbeing.",
     bio2: "Prior to the doctorate she worked as a cognitive-behavioural psychotherapist, with a specific interest in creating inclusive therapy spaces, working in forensic and community settings. As part of this, she has contributed to the development of good practice guidelines for delivering neuro-affirming therapy in a local NHS talking therapies service. She continues to work towards promoting creative inclusive practices in health, education and social care settings.",
     link: null,
