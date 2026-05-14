@@ -89,7 +89,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-3">
               {/* TODO: Uncomment below when registration opens */}
               {/* <a href="#registration" className="btn-primary">
-                Register Now — £12/day
+                Register Now — £15/day
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
@@ -112,7 +112,7 @@ export default function Hero() {
               {[
                 { icon: "📅", label: "Dates", value: "29–30 July 2026" },
                 { icon: "📍", label: "Venue", value: "The Amelia Scott, Royal Tunbridge Wells" },
-                { icon: "🎟️", label: "Fee", value: "£12 per day — lunch & refreshments included" },
+                { icon: "🎟️", label: "Fee", value: "£15 per day — lunch & refreshments included" },
                 { icon: "👥", label: "For", value: "Educators, researchers, clinicians & community organisers" },
                 { icon: "✉️", label: "Contact", value: "event@rollingwell.org.uk", isEmail: true },
               ].map((item) => (

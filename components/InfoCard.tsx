@@ -28,7 +28,7 @@ export default function InfoCard() {
           {
             icon: "🎟️",
             label: "Fee",
-            value: "£12 per day — lunch & refreshments included",
+            value: "£15 per day — lunch & refreshments included",
           },
           {
             icon: "👥",

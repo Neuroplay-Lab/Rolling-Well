@@ -33,7 +33,7 @@ export default function StatsBar() {
         
         {[
           { value: "2", label: "Conference days" },
-          { value: "£12", label: "Per day (incl. lunch)" },
+          { value: "£15", label: "Per day (incl. lunch)" },
           { value: "5", label: "Partner organisations" },
         ].map((s) => (
           <div key={s.label} className="text-center">

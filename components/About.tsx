@@ -76,7 +76,7 @@ export default function About() {
                 {[
                   { label: "Dates", value: "29–30 July 2026 (Wed–Thu)", icon: "📅" },
                   { label: "Venue", value: "The Amelia Scott, Royal Tunbridge Wells", icon: "📍" },
-                  { label: "Fee", value: "£12 per day — lunch & refreshments included", icon: "🎟️" },
+                  { label: "Fee", value: "£15 per day — lunch & refreshments included", icon: "🎟️" },
                   { label: "Who", value: "Educators, researchers, clinicians & community organisers", icon: "👥" },
                   { label: "Contact", value: "event@rollingwell.org.uk", icon: "✉️" },
                 ].map((item) => (
