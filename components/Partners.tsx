@@ -6,7 +6,8 @@ const partners = [
   { abbr: "UoP", name: "University of Plymouth", img: "/university-of-plymouth-vector-logo.webp", site: "https://www.plymouth.ac.uk" },
   { abbr: "MGC", name: "Manchester Game Centre", img: "/manc-game-centre.webp", site: "https://manchestergamecentre.org" },
   { abbr: "GiL", name: "Game in Lab", img: "/GameInLab.webp", site: "https://www.game-in-lab.org/en/310-2/" },
-  { abbr: "TAS", name: "The Amelia Scott", img: "/the-amelia.png", site: "https://theamelia.co.uk" },
+  { abbr: "TAS", name: "The Amelia Scott", img: "/the-amelia.webp", site: "https://theamelia.co.uk" },
+  { abbr: "NPL", name: "Neuroplay Lab", img: "/neuroplay-lab.webp", site: "https://neuroplaylab.com" },
   { abbr: "MMU", name: "Manchester Metropolitan University", img: "/Manchester-Metropolitan-University-logo-1.webp", site: "https://www.mmu.ac.uk" },
 ];
 

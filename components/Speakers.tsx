@@ -33,7 +33,7 @@ export default function Speakers() {
             Programme announced<br />
             <span style={{ color: "#29abe2" }}>in May 2026.</span>
           </h2>
-          <div
+          {/* <div
             className="reveal reveal-delay-2 rounded-2xl px-5 py-4 max-w-sm"
             style={{ border: "1px solid rgba(232,115,26,0.35)", background: "rgba(232,115,26,0.08)" }}
           >
@@ -50,7 +50,7 @@ export default function Speakers() {
             >
               Propose a session →
             </a>
-          </div>
+          </div> */}
         </div>
 
         <p className="reveal font-body text-xs font-bold uppercase tracking-widest mb-5" style={{ color: "#7a6a50" }}>What the programme will include</p>
