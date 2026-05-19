@@ -2,10 +2,10 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 
-const mainOrganisers = [
+export const mainOrganisers = [
   {
     initials: "GA & LC", name: "Dr Gray Atherton & Dr Liam Cross", role: "Assistant Professors in Psychology", institution: "University of Plymouth, UK",
-    bio: "Their research explores how games, play, and embodied interaction can be used to understand social cognition, especially among neurodivergent individuals. Their work in this area explores the intersection between games and neurodiversity, particularly autism, and how games can be used to bolster skills and social interaction in this population, as well as ways to gamify therapeutic and educational processes. They also do research on player dynamics and profiles in hobbyist board gamers and have published work in this area in the journals Autism, The Journal of Autism and Developmental Disorders, The American Journal of Play, and Simulation and Gaming. They have been commissioned to produce reviews of gamification for autism interventions for the French Institute for Applied Disability Research, and co-designed an accessible version of the popular game Dixit for Asmodee’s Access Plus line of disability-friendly games. They have given talks and keynotes on these topics at Essen Spiel, Canada Plays, UK Games Expo, Airecon and the NHS.",
+    bio: "Their research explores how games, play, and embodied interaction can be used to understand social cognition, especially among neurodivergent individuals. Their work in this area explores the intersection between games and neurodiversity, particularly autism, and how games can be used to bolster skills and social interaction in this population, as well as ways to gamify therapeutic and educational processes. They also do research on player dynamics and profiles in hobbyist board gamers and have published work in this area in the journals Autism, The Journal of Autism and Developmental Disorders, The American Journal of Play, and Simulation and Gaming. They have been commissioned to produce reviews of gamification for autism interventions for the French Institute for Applied Disability Research, and co-designed an accessible version of the popular game Dixit for Asmodee's Access Plus line of disability-friendly games. They have given talks and keynotes on these topics at Essen Spiel, Canada Plays, UK Games Expo, Airecon and the NHS.",
     websiteName: "neuroplaylab.com",
     link: "https://www.neuroplaylab.com",
     span2: true,
@@ -13,15 +13,15 @@ const mainOrganisers = [
   },
   {
     initials: "CG", name: "Dr Chloé Germaine", role: "Reader, Department of English", institution: "Manchester Metropolitan University, UK",
-    bio: "Dr Chloé Germaine is a game designer, RPG writer, and academic based at Manchester Metropolitan University. Her RPG credits include co-authoring The Cthulhu Hack: Mother’s Love (Just Crunch Games) and contributing to The Between: Season 3. She is currently developing Rooted in Crisis, an eco-horror tabletop anthology built on the Trophy system, created with climate scientists and activists as a space for processing environmental grief and imagining collective futures.",
-    bio2: "Her academic work spans Game Studies, Gothic fiction, and the Environmental Humanities, and she co-authored Material Game Studies: A Philosophy of Analogue Play (Bloomsbury, 2022). She co-directs the Manchester Game Centre and co-leads STRATEGIES, a Horizon Europe-funded project on sustainable transition in Europe’s game industries.",
+    bio: "Dr Chloé Germaine is a game designer, RPG writer, and academic based at Manchester Metropolitan University. Her RPG credits include co-authoring The Cthulhu Hack: Mother's Love (Just Crunch Games) and contributing to The Between: Season 3. She is currently developing Rooted in Crisis, an eco-horror tabletop anthology built on the Trophy system, created with climate scientists and activists as a space for processing environmental grief and imagining collective futures.",
+    bio2: "Her academic work spans Game Studies, Gothic fiction, and the Environmental Humanities, and she co-authored Material Game Studies: A Philosophy of Analogue Play (Bloomsbury, 2022). She co-directs the Manchester Game Centre and co-leads STRATEGIES, a Horizon Europe-funded project on sustainable transition in Europe's game industries.",
     link: null,
     span2: false,
     img: "/Chloe2.webp",
   },
   {
     initials: "PW", name: "Professor Paul Wake", role: "Professor of Game Studies", institution: "Manchester Metropolitan University, UK",
-    bio: "Paul Wake is Professor of Game Studies at Manchester Metropolitan University and a co-director of the Manchester Game Centre. His research interests include game-making as a research method, games and communication, and game theory in the reading of literary texts. He has published articles on literary representations of casino games, 80s Adventure Gamebooks, and game design for communication. Paul also designs, uses, and plays games to start conversations about important societal topics. His recent work in this area has included Carbon City Zero: World Edition, a collaborative card game about the race to decarbonise the world’s cities, created with the climate action charity Possible and a global warming scenario for Klaus Teuber’s popular Catan®. His current game design project is Death Occurs Abroad, an archive building game set during the Second World War.",
+    bio: "Paul Wake is Professor of Game Studies at Manchester Metropolitan University and a co-director of the Manchester Game Centre. His research interests include game-making as a research method, games and communication, and game theory in the reading of literary texts. He has published articles on literary representations of casino games, 80s Adventure Gamebooks, and game design for communication. Paul also designs, uses, and plays games to start conversations about important societal topics. His recent work in this area has included Carbon City Zero: World Edition, a collaborative card game about the race to decarbonise the world's cities, created with the climate action charity Possible and a global warming scenario for Klaus Teuber's popular Catan®. His current game design project is Death Occurs Abroad, an archive building game set during the Second World War.",
     link: null,
     span2: false,
     img: "/paul.webp",
@@ -36,10 +36,10 @@ const mainOrganisers = [
   },
 ];
 
-const venueOrganisers = [
+export const venueOrganisers = [
   {
     initials: "DH", name: "Daniel Huckfield", role: "Creative Health Projects Officer", institution: "The Amelia Scott, Tunbridge Wells",
-    bio: "He has developed a successful, creative, and engaging program over the last three and a half years, exploring the power of museum objects, creative writing, exhibition writing, and Dungeons & Dragons for wellbeing and mental health.",
+    bio: "Daniel has developed a successful, creative, and engaging program over the last three and a half years, exploring the power of museum objects, creative writing, exhibition writing, and Dungeons & Dragons for wellbeing and mental health.",
     bio2: "With over seven years of experience in developing and facilitating wellbeing and creative health interventions, Daniel has lived experience of mental health struggles and brings this experience to his facilitation work.",
     bio3: "Daniel has developed his practice in areas including interventions for those at risk of social isolation and neurodivergent individuals. He is focused on exploring how creative health and wellbeing can be taken beyond more traditional arts and crafts based interventions.",
     img: "/DanielHuckfield.webp",
@@ -47,7 +47,7 @@ const venueOrganisers = [
   {
     initials: "JK", name: "Jeremy Kimmel", role: "Arts, Heritage & Engagement Director", institution: "The Amelia Scott, Tunbridge Wells",
     bio: "Disruptive collaborator, with a passion for improving places and strengthening communities. My work sits at the crossroads of culture, health, engagement and strategy — helping councils deliver services that are meaningful, outcome focused, efficient and genuinely valued by residents. At The Amelia Scott, I lead a complex, multi-service operation, combining strategic thinking with practical delivery: building partnerships, securing funding, using data to guide decisions, and shaping programmes that support wellbeing, learning and a stronger sense of place. What I bring is a systems view. I connect agendas that often operate in isolation — public health, youth services, community engagement, culture — and identify opportunities for them to work together for better outcomes.",
-    bio2: "Currently part of the Solace Springboard programme, I’m focused on the wider role that civic institutions can play in prevention, belonging and the future of local government. I’m driven by collaboration, clarity, and helping teams and places thrive.",
+    bio2: "Currently part of the Solace Springboard programme, I'm focused on the wider role that civic institutions can play in prevention, belonging and the future of local government. I'm driven by collaboration, clarity, and helping teams and places thrive.",
     img: "/jeremy.webp",
   },
   // {
@@ -57,7 +57,7 @@ const venueOrganisers = [
   {
     initials: "AS", name: "The Amelia Scott", role: "", institution: "Enriching Lives, Inspiring Learning",
     bio: "The Amelia Scott is a unique centre that brings people and culture together. It is a place for meeting, getting help, learning, and socialising, with a museum, art gallery, libraries, study spaces, cafe, and council services all under one roof.",
-    img: "/the-amelia.png",
+    img: "/the-amelia.webp",
     span2: true,
   },
 ];
