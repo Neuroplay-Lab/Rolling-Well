@@ -34,12 +34,16 @@ export default function Registration() {
           Secure your place
         </h2>
 
-        {/* <p className="reveal reveal-delay-2 font-body text-base max-w-xl mb-12 leading-relaxed" style={{ color: "#c8b890" }}>
-          Registration opens in early April 2026. There is a <strong style={{ color: "#f0e8d0" }}>£10 per day</strong> fee to help support the event — lunch and refreshments are provided throughout both days.
+        {/* <span className="reveal reveal-delay-2 font-display font-bold text-3xl text-[#29abe2] max-w-xl mb-12 leading-relaxed">
+          Registration is now open
+        </span>
+
+        <p className="reveal reveal-delay-3 font-body text-base max-w-xl mb-12 leading-relaxed" style={{ color: "#c8b890" }}>
+          Those wishing to attend are invited to email <a href="mailto:event@rollingwell.org.uk" className="text-[#29abe2] hover:underline">event@rollingwell.org.uk</a>, outlining their current work or areas of interest within this field.
         </p> */}
 
         {/* Status notice */}
-        <div
+        {/* <div
           className="reveal reveal-delay-4 rounded-2xl p-6 my-6 flex flex-col md:flex-row md:items-center justify-between gap-5"
           style={{ border: "1px solid rgba(232,115,26,0.4)", background: "rgba(232,115,26,0.1)" }}
         >
@@ -47,11 +51,11 @@ export default function Registration() {
             <div className="flex items-center gap-2 mb-2">
               <span className="w-2 h-2 rounded-full bg-[#e8731a] animate-pulse" />
               <span className="font-body text-xs font-bold uppercase tracking-widest" style={{ color: "#e8731a" }}>
-                Registration opens April 2026
+                Registration now open
               </span>
             </div>
             <p className="font-body text-sm leading-relaxed" style={{ color: "#c8b890" }}>
-              Email us to be notified when registration opens, or get in touch if you're interested in presenting or running a workshop.
+              Those wishing to attend are invited to email <a href="mailto:event@rollingwell.org.uk" className="text-[#29abe2] hover:underline">event@rollingwell.org.uk</a>, outlining their current work or areas of interest within this field.’
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 shrink-0">
@@ -69,9 +73,31 @@ export default function Registration() {
               Submit a talk
             </a>
           </div>
+        </div> */}
+
+        <div className="grid md:grid-cols-1 gap-5 my-10">
+            <div
+              className={`reveal reveal-delay-${2} rounded-2xl overflow-hidden`}
+              style={{ border: "1px solid rgba(41,171,226,0.3)", background: "rgba(255,255,255,0.06)" }}
+            >
+              <div style={{ background: "#29abe2" }} className="px-6 py-4 flex items-center justify-between">
+                <div>
+                  <div className="font-display font-black text-white text-xl">Registration is now open</div>
+                  <div className="font-body text-md text-white/80 font-medium mt-0.5">£15 per day</div>
+                </div>
+              </div>
+              <div className="p-6">
+                <p className="font-body text-sm" style={{ color: "#d0c4a0" }}>
+                  Those wishing to attend are invited to email <a href="mailto:event@rollingwell.org.uk" className="text-[#29abe2] hover:underline">event@rollingwell.org.uk</a>, outlining their current work or areas of interest within this field.
+                </p>
+                <a href="mailto:event@rollingwell.org.uk?subject=Registration%20Inquiry" className="btn-primary block text-center mt-4">
+                  Contact us now
+                </a>
+              </div>
+            </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-5 mb-10">
+        {/* <div className="grid md:grid-cols-2 gap-5 mb-10">
           {days.map((d, i) => (
             <div
               key={d.day}
@@ -99,7 +125,7 @@ export default function Registration() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

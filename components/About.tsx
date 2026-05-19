@@ -93,12 +93,11 @@ export default function About() {
                   </div>
                 ))}
               </div>
-              {/* TODO: Uncomment when registration opens */}
-              {/* <div className="px-6 pb-6">
+              <div className="px-6 pb-6">
                 <a href="#registration" className="btn-primary block text-center">
                   Register Now
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
 

@@ -87,14 +87,12 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-3">
-              {/* TODO: Uncomment below when registration opens */}
-              {/* <a href="#registration" className="btn-primary">
+              <a href="#registration" className="btn-primary">
                 Register Now — £15/day
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </a>
-              <a href="#about" className="btn-outline">Learn more</a> */}
               <a href="#about" className="btn-outline">Learn more</a>
             </div>
           </div>

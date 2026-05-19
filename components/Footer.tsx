@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   const links = [
     { label: "About", href: "#about" },
-    { label: "Contribute", href: "#submissions" },
+    // { label: "Contribute", href: "#submissions" },
     { label: "Registration", href: "#registration" },
     { label: "Speakers & Schedule", href: "#speakers" },
     { label: "Organisers", href: "#organisers" },
@@ -55,10 +55,9 @@ export default function Footer() {
             <a href="https://rollingwell.org.uk" className="font-body text-sm hover:text-white transition-colors block mb-6" style={{ color: "#8a7a60" }}>
               rollingwell.org.uk
             </a>
-            {/* TODO: Uncomment when registration opens */}
-            {/* <a href="#registration" className="btn-primary !text-sm">
+            <a href="#registration" className="btn-primary !text-sm">
               Register Now
-            </a> */}
+            </a>
           </div>
         </div>
 

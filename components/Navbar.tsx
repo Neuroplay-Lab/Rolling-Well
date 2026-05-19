@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const links = [
   { label: "About", href: "#about" },
-  { label: "Contribute", href: "#submissions" },
-  { label: "Registration", href: "#registration" },
+  // { label: "Contribute", href: "#submissions" },
+  // { label: "Registration", href: "#registration" },
   { label: "Speakers & Schedule", href: "#speakers" },
   { label: "Organisers", href: "#organisers" },
   { label: "Location", href: "#location" },
@@ -57,15 +57,14 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-          {/* TODO: Uncomment when registration opens */}
-          {/* <li>
+          <li>
             <a
               href="#registration"
               className="btn-primary !py-2.5 !px-5 !text-sm"
             >
               Register Now
             </a>
-          </li> */}
+          </li>
         </ul>
 
         <button
@@ -96,12 +95,11 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-          {/* TODO: Uncomment when registration opens */}
-          {/* <li className="pt-3">
+          <li className="pt-3">
             <a href="#registration" onClick={() => setMenuOpen(false)} className="btn-primary block text-center !text-sm">
               Register Now
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </header>
