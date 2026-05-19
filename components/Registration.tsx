@@ -34,13 +34,13 @@ export default function Registration() {
           Secure your place
         </h2>
 
-        <span className="reveal reveal-delay-2 font-display font-bold text-3xl text-[#29abe2] max-w-xl mb-12 leading-relaxed">
+        {/* <span className="reveal reveal-delay-2 font-display font-bold text-3xl text-[#29abe2] max-w-xl mb-12 leading-relaxed">
           Registration is now open
         </span>
 
         <p className="reveal reveal-delay-3 font-body text-base max-w-xl mb-12 leading-relaxed" style={{ color: "#c8b890" }}>
           Those wishing to attend are invited to email <a href="mailto:event@rollingwell.org.uk" className="text-[#29abe2] hover:underline">event@rollingwell.org.uk</a>, outlining their current work or areas of interest within this field.
-        </p>
+        </p> */}
 
         {/* Status notice */}
         {/* <div
@@ -75,7 +75,29 @@ export default function Registration() {
           </div>
         </div> */}
 
-        <div className="grid md:grid-cols-2 gap-5 mb-10">
+        <div className="grid md:grid-cols-1 gap-5 my-10">
+            <div
+              className={`reveal reveal-delay-${2} rounded-2xl overflow-hidden`}
+              style={{ border: "1px solid rgba(41,171,226,0.3)", background: "rgba(255,255,255,0.06)" }}
+            >
+              <div style={{ background: "#29abe2" }} className="px-6 py-4 flex items-center justify-between">
+                <div>
+                  <div className="font-display font-black text-white text-xl">Registration is now open</div>
+                  <div className="font-body text-md text-white/80 font-medium mt-0.5">£15 per day</div>
+                </div>
+              </div>
+              <div className="p-6">
+                <p className="font-body text-sm" style={{ color: "#d0c4a0" }}>
+                  Those wishing to attend are invited to email <a href="mailto:event@rollingwell.org.uk" className="text-[#29abe2] hover:underline">event@rollingwell.org.uk</a>, outlining their current work or areas of interest within this field.
+                </p>
+                <a href="mailto:event@rollingwell.org.uk?subject=Registration%20Inquiry" className="btn-primary block text-center mt-4">
+                  Contact us now
+                </a>
+              </div>
+            </div>
+        </div>
+
+        {/* <div className="grid md:grid-cols-2 gap-5 mb-10">
           {days.map((d, i) => (
             <div
               key={d.day}
@@ -103,7 +125,7 @@ export default function Registration() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
