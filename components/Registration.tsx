@@ -90,7 +90,7 @@ export default function Registration() {
                 <p className="font-body text-sm" style={{ color: "#d0c4a0" }}>
                   Those wishing to attend are invited to email <a href="mailto:event@rollingwell.org.uk" className="text-[#29abe2] hover:underline">event@rollingwell.org.uk</a>, outlining their current work or areas of interest within this field.
                 </p>
-                <a href="mailto:event@rollingwell.org.uk?subject=Registration%20Inquiry" className="btn-primary block text-center mt-4">
+                <a href="mailto:event@rollingwell.org.uk?subject=Registration%20Inquiry&body=Hello,%0D%0A%0D%0AI%20would%20like%20to%20register%20for%20the%20event.%0D%0A%0D%0AHere%20is%20a%20description%20of%20my%20work%20related%20to%20TTRPGs%3A%0D%0A%0D%0A" className="btn-primary block text-center mt-4">
                   Contact us now
                 </a>
               </div>
