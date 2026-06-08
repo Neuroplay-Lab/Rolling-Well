@@ -77,19 +77,19 @@ export const sessionData: Session[] = [
     title: "Historical Worlds, Written Rules: Using Historical RPGs to Explore Society and Social Etiquette with Autistic Young People",
     abstract: "This talk examines the use of historical tabletop role-playing games (RPGs) as tools for exploring social rules, etiquette, and interaction with autistic young people. While contemporary RPGs can support social connection, historically situated role-play offers a distinctive additional benefit: societies in the past often operate according to explicit, codified rules around hierarchy, manners, roles, and behaviour. These clearly defined expectations can make social structures more understandable, discussable, and negotiable. Drawing on practice-based experience running history-focused RPG groups, this talk explores how historical settings—such as early modern Europe or inter-war Britain—create a safe conceptual distance from the present. This distance allows young people to examine social norms without the immediacy or judgement often associated with real-world social interaction. Social expectations become part of the fictional world rather than implicit demands placed on participants themselves. The paper also considers the role of historical knowledge as a special interest. For some autistic young people, history provides a motivating and grounding area of expertise, which can support confidence, engagement, and leadership within group play. Historical facts, social customs, and period detail become shared points of reference rather than barriers to participation. Finally, the talk argues that historical RPGs function as safe spaces for practising social interaction, where mistakes carry no real-world consequences and reflection is built into play. By making social rules visible and contextual, historical role-play offers a valuable and inclusive way for autistic young people to explore how societies function—both past and present.",
   },
-  {
-    type: "talk",
-    theme: "TTRPGS in Educational Settings",
-    speakers: [
-      {
-        name: "Lucas Maxwell",
-        affiliation: "Author and Librarian",
-        bio: "Originally from Nova Scotia, Canada, Lucas Maxwell grew up on Nintendo, comic books and Dungeons and Dragons. He has been working in libraries for over fifteen years and is passionate about providing safe and welcoming library spaces for everyone. In 2017 he was named the UK's School Librarian of the Year and in 2024 he was awarded a British Empire Medal (BEM) for his services to libraries. He is proud to be a neurodivergent writer and grateful to be adding his voice to the world of literature. His debut YA, A Million Tiny Missiles All At Once will be published with Chicken House Books in 2026. He currently resides in the UK with his amazing family and Biscuit the chocolate lab.",
-      },
-    ],
-    title: "The Mental Health and Wellbeing Benefits of Dungeons and Dragons",
-    abstract: "Lucas Maxwell has been running Dungeons and Dragons in his school library for the past eight years. Maxwell will cover how the game has helped bring the school together, created strong friendship groups for both himself and the students and developed strong mental health and wellbeing benefits for those involved, especially neurodivergent players. He feels very strongly about the benefits of D&D and how it can help others as a therapeutic tool. Maxwell will cover how the game has helped bring the school together, created strong friendship groups for both himself and the students and developed strong mental health and wellbeing benefits for those involved, especially neurodivergent players.",
-  },
+  // {
+  //   type: "talk",
+  //   theme: "TTRPGS in Educational Settings",
+  //   speakers: [
+  //     {
+  //       name: "Lucas Maxwell",
+  //       affiliation: "Author and Librarian",
+  //       bio: "Originally from Nova Scotia, Canada, Lucas Maxwell grew up on Nintendo, comic books and Dungeons and Dragons. He has been working in libraries for over fifteen years and is passionate about providing safe and welcoming library spaces for everyone. In 2017 he was named the UK's School Librarian of the Year and in 2024 he was awarded a British Empire Medal (BEM) for his services to libraries. He is proud to be a neurodivergent writer and grateful to be adding his voice to the world of literature. His debut YA, A Million Tiny Missiles All At Once will be published with Chicken House Books in 2026. He currently resides in the UK with his amazing family and Biscuit the chocolate lab.",
+  //     },
+  //   ],
+  //   title: "The Mental Health and Wellbeing Benefits of Dungeons and Dragons",
+  //   abstract: "Lucas Maxwell has been running Dungeons and Dragons in his school library for the past eight years. Maxwell will cover how the game has helped bring the school together, created strong friendship groups for both himself and the students and developed strong mental health and wellbeing benefits for those involved, especially neurodivergent players. He feels very strongly about the benefits of D&D and how it can help others as a therapeutic tool. Maxwell will cover how the game has helped bring the school together, created strong friendship groups for both himself and the students and developed strong mental health and wellbeing benefits for those involved, especially neurodivergent players.",
+  // },
   {
     type: "talk",
     theme: "TTRPGS in Educational Settings",
@@ -137,19 +137,19 @@ export const sessionData: Session[] = [
     title: "Young Dragons - using TTRPG to improve children's behaviour in the classroom and improve attendance",
     abstract: "Tabletop role-playing games such as Dungeons & Dragons are increasingly recognised as powerful tools for helping young people forge friendships, manage their emotions, and embark on journeys of self-discovery. Despite their potential, there has been limited evidence from schools about how these games benefit students, or which groups stand to gain the most. Our games library initiative connected us with a vibrant community of games enthusiasts and laid the groundwork for Young Dragons - a Dungeons & Dragons-inspired pilot launched in ten local schools. We focused on children aged 9 to 16 who faced emotional and behavioural challenges and struggled to thrive in classrooms. Over 8 weeks, small groups met to build creative stories together and reflect on their experiences, all under the guidance of a skilled facilitator. The programme's impact was independently assessed by a researcher from Imperial College. Although the quantitative data did not reveal dramatic overall improvements in pupil wellbeing, the findings painted a more nuanced picture. Not all students responded in the same way, yet for some, teachers and parents observed marked improvements in behaviour, with schools reporting fewer suspensions and a modest rise in attendance. Qualitative feedback highlighted the critical importance of creating a safe group environment, fostering teamwork, and encouraging empathy by seeing things from different perspectives. These factors helped pupils build confidence, work more effectively with others, and regulate their emotions. We have continued running Young Dragons in ten local schools this year and believe that role-playing games can serve as valuable safe spaces in schools, where young people can practise social skills and develop self-management strategies. Our pilot offers practical guidance for integrating role-playing games into schools as part of broader mental health and wellbeing strategies, highlighting the conditions necessary for these initiatives to truly succeed.",
   },
-  {
-    type: "talk",
-    theme: "TTRPGS in Educational Settings",
-    speakers: [
-      {
-        name: "Alex Drake",
-        affiliation: "Mental Health Advisor, Student administration and support, University of Liverpool ",
-        bio: "I'm a registered Mental Health Nurse with twelve years' experience working across various mental health services. I currently work within Student Administration and Support at the University of Liverpool, where my role focuses on student wellbeing, service liaison, risk management, and low-level therapeutic interventions. I regularly co-deliver a DBT skills group for university students. Within my professional work, I also run a neurodivergent board game club that supports social connection, communication, and collaborative problem-solving. With my own personal lived experience of mental health difficulties, I feel this empowers an empathy and understanding when it comes to developing effective therapeutic relationships. I have a particular interest in translating therapeutic principles into accessible, non-clinical contexts. My current interest lies in exploring how the structured, reflective elements of games can support emotional and interpersonal skill development, and how these approaches may complement DBT-informed practice across educational, mental health, and community settings.",
-      },
-    ],
-    title: "Rolling for Regulation: Using TTRPGs to Support Emotional regulation and Interpersonal Skills",
-    abstract: "Tabletop role-playing games (TTRPGs) are increasingly recognised for their potential to support wellbeing. This workshop explores how participation in TTRPGs can support the development of emotional regulation and interpersonal effectiveness skills, in ways that parallel key elements of Dialectical Behaviour Therapy (DBT) skills groups. Drawing on experience delivering DBT-informed interventions within university mental health support, the workshop examines how elements of TTRPG play; including; role-play, narrative distance, and collaborative problem-solving can create structured opportunities for participants to practise skills such as emotional regulation, distress tolerance, and interpersonal effectiveness. The structured, social, and reflective nature of TTRPGs is considered alongside how DBT skills groups support the development and rehearsal of these competencies. Using guided applied examples, participants will reflect on how specific game mechanics; such as turn-taking, consequence-based decision-making, and character perspective-taking can reinforce emotional and interpersonal skills within an engaging and relatively low-risk environment. The session focuses on understanding processes rather than participating in live gameplay. The workshop will also briefly address practical considerations, including group dynamics, boundary-setting, and adapting play to support a range of participant needs across educational, mental health, and community contexts. Attendees will leave with practical ideas that can be adapted within DBT-informed and wellbeing-focused work.",
-  },
+  // {
+  //   type: "talk",
+  //   theme: "TTRPGS in Educational Settings",
+  //   speakers: [
+  //     {
+  //       name: "Alex Drake",
+  //       affiliation: "Mental Health Advisor, Student administration and support, University of Liverpool ",
+  //       bio: "I'm a registered Mental Health Nurse with twelve years' experience working across various mental health services. I currently work within Student Administration and Support at the University of Liverpool, where my role focuses on student wellbeing, service liaison, risk management, and low-level therapeutic interventions. I regularly co-deliver a DBT skills group for university students. Within my professional work, I also run a neurodivergent board game club that supports social connection, communication, and collaborative problem-solving. With my own personal lived experience of mental health difficulties, I feel this empowers an empathy and understanding when it comes to developing effective therapeutic relationships. I have a particular interest in translating therapeutic principles into accessible, non-clinical contexts. My current interest lies in exploring how the structured, reflective elements of games can support emotional and interpersonal skill development, and how these approaches may complement DBT-informed practice across educational, mental health, and community settings.",
+  //     },
+  //   ],
+  //   title: "Rolling for Regulation: Using TTRPGs to Support Emotional regulation and Interpersonal Skills",
+  //   abstract: "Tabletop role-playing games (TTRPGs) are increasingly recognised for their potential to support wellbeing. This workshop explores how participation in TTRPGs can support the development of emotional regulation and interpersonal effectiveness skills, in ways that parallel key elements of Dialectical Behaviour Therapy (DBT) skills groups. Drawing on experience delivering DBT-informed interventions within university mental health support, the workshop examines how elements of TTRPG play; including; role-play, narrative distance, and collaborative problem-solving can create structured opportunities for participants to practise skills such as emotional regulation, distress tolerance, and interpersonal effectiveness. The structured, social, and reflective nature of TTRPGs is considered alongside how DBT skills groups support the development and rehearsal of these competencies. Using guided applied examples, participants will reflect on how specific game mechanics; such as turn-taking, consequence-based decision-making, and character perspective-taking can reinforce emotional and interpersonal skills within an engaging and relatively low-risk environment. The session focuses on understanding processes rather than participating in live gameplay. The workshop will also briefly address practical considerations, including group dynamics, boundary-setting, and adapting play to support a range of participant needs across educational, mental health, and community contexts. Attendees will leave with practical ideas that can be adapted within DBT-informed and wellbeing-focused work.",
+  // },
   {
     type: "talk",
     theme: "TTRPGS in Educational Settings",
@@ -162,6 +162,32 @@ export const sessionData: Session[] = [
     ],
     title: "Dragons of Afterlands: Co-producing an augmented reality board game to develop socioemotional skills of adolescents in education and healthcare settings",
     abstract: "There is a growing body of evidence of the value of game-based tools, particularly for mental health and wellbeing of young people. The social aspects of board games and role-playing games are particularly useful, at a time when adolescent development requires increasing independence and reliance on peers. However, we identified a gap in mental health and wellbeing tools, which focussed on narrow aspects of wellbeing (e.g. cognitive or emotional) and ignored other important aspects, such as physical health and social skills. We developed Dragons of Afterlands to address the gaps in provision. Dragons of Afterlands is an award-winning, evidence-based augmented reality board game, co-created with young people, psychologists and educators. It can be delivered in person, remotely or hybrid and played one-to-one, with a staff member, or in a small group of peers. Staff are trained as Dragon Champions to facilitate game sessions, with opportunities for young people to become Dragon Leaders, offering empowerment within a peer mentor-type role. Academic trials with Royal Holloway University showed significant improvements in wellbeing, emotional awareness, emotion regulation and social problem-solving, sustained at one-month follow-up. Recent hospital and education trials have been conducted to explore implementation barriers and enablers, with iterative development taking place to address these barriers. Evidence from a trial at Great Ormond Street Hospital will be presented, demonstrating impact on patients within hospitals and the next phases of adoption. Early evidence from an academic trial with University of West of England exploring how the game can reintegrate young people excluded from education due to emotionally-based school non-attendance (EBSNA) will also be presented. This presentation will introduce Dragons of Afterlands and present evidence of how co-production and iterative development can create an inclusive, engaging intervention which works in a range of settings, and shows particular socioemotional benefits for neurodivergent adolescents.",
+  },
+  {
+    type: "talk",
+    theme: "TTRPGS in Educational Settings",
+    speakers: [
+      {
+        name: "Vikki Nolan & Sharlene Rudd",
+        affiliation: "Role Resolve",
+        bio: "Vikki Nolan and Sharlene Rudd are qualified psychotherapists, researchers, and co-founders of Role Resolve, where they specialise in creative, inclusive, and evidence-informed approaches to therapy. Their work focuses on integrating tabletop role-playing games into therapeutic and educational settings to support emotional wellbeing, inclusion, and personal development. Sharlene, who is proudly neurodivergent and has lived experience with ADHD, brings a strong interest in self-compassion and trauma-informed approaches. Together, they combine psychotherapy, creativity, and lived experience to design interventions that empower individuals to feel seen, safe, and supported.",
+      },
+    ],
+    title: "Integrating Therapy into Tabletop Role play: The Impact of Research on Innovation and therapeutic intervention",
+    abstract: "Our presentation will examine the role of tabletop role-playing games (TTRPGs) in research, particularly their application as an innovative therapeutic modality. We will present findings from our pilot study on the use of TTRPGs for alleviating social anxiety and introduce a longitudinal study set to commence in January 2025 to further investigate these interventions.",
+  },
+  {
+    type: "talk",
+    theme: "TTRPGS in Educational Settings",
+    speakers: [
+      {
+        name: "David Rayner",
+        affiliation: "Roll the Dice Cornwall C.I.C.",
+        bio: "David Rayner is the Founder and Lead Practitioner of Roll the Dice Cornwall C.I.C., a community interest company dedicated to improving social, emotional, and mental health through the power of in-person gaming. With 14 years of experience as a primary school teacher, David has spent much of his professional life exploring innovative ways to engage, motivate, and support children and young people. Alongside his teaching career, David conducted action research into the use of gamification in education, investigating how game-based approaches can enhance learning, participation, and personal development. Combining this academic and professional expertise with a lifelong passion for tabletop games, roleplaying games, and geek culture, Roll the Dice Cornwall C.I.C. was born. Today, David works with children, young people, and adults across Cornwall, using tabletop roleplaying games, board games, and other face-to-face gaming experiences to foster connection, build confidence, develop social skills, and support positive mental wellbeing.  A firm believer that meaningful play can be transformative, David is passionate about demonstrating how games can be used not only for entertainment, but as powerful tools for improving individual and community wellbeing.",
+      },
+    ],
+    title: "Rolling for Connection: Using Tabletop Roleplaying Games to Improve Social health in children and young people.",
+    abstract: "At Roll the Dice Cornwall C.I.C., we use tabletop roleplaying games (TTRPGs) as a powerful tool for supporting children's social health, confidence, and wellbeing. Far more than a hobby, collaborative roleplaying creates structured opportunities for young people to practise communication, teamwork, empathy, problem-solving, and emotional regulation in a safe and engaging environment. This talk explores how TTRPGs can help children build meaningful social connections, particularly those who may struggle with traditional social settings due to anxiety, neurodivergence, isolation, or low confidence. Drawing on our experiences delivering community-based gaming programmes across Cornwall, we will share practical examples of how roleplaying encourages cooperative behaviour, perspective-taking, resilience, and a sense of belonging. Whether you are familiar with roleplaying games or completely new to the hobby, this presentation will demonstrate how a roll of the dice can become a catalyst for friendship, confidence, and healthier social development in children.",
   },
   {
     type: "talk",
@@ -242,19 +268,6 @@ export const sessionData: Session[] = [
     theme: "TTRPG Design and Best Practice",
     speakers: [
       {
-        name: "Vikki Nolan & Sharlene Rudd",
-        affiliation: "Role Resolve",
-        bio: "Vikki Nolan and Sharlene Rudd are qualified psychotherapists, researchers, and co-founders of Role Resolve, where they specialise in creative, inclusive, and evidence-informed approaches to therapy. Their work focuses on integrating tabletop role-playing games into therapeutic and educational settings to support emotional wellbeing, inclusion, and personal development. Sharlene, who is proudly neurodivergent and has lived experience with ADHD, brings a strong interest in self-compassion and trauma-informed approaches. Together, they combine psychotherapy, creativity, and lived experience to design interventions that empower individuals to feel seen, safe, and supported.",
-      },
-    ],
-    title: "Integrating Therapy into Tabletop Role play: The Impact of Research on Innovation and therapeutic intervention",
-    abstract: "Our presentation will examine the role of tabletop role-playing games (TTRPGs) in research, particularly their application as an innovative therapeutic modality. We will present findings from our pilot study on the use of TTRPGs for alleviating social anxiety and introduce a longitudinal study set to commence in January 2025 to further investigate these interventions.",
-  },
-  {
-    type: "talk",
-    theme: "TTRPG Design and Best Practice",
-    speakers: [
-      {
         name: "Jodie Russell",
         affiliation: "Institute for Mental Health, School of Psychology, University of Birmingham",
         bio: "Jodie Russell, Institute for Mental Health, School of Psychology, University of Birmingham: Jodie Louise Russell (she/her) is a Research Fellow at the University of Birmingham on the Epistemic Injustice in Healthcare Project and Birmingham Network for Phenomenology and Mental Health. Her background is in philosophy and her research focusses on ethical dimensions of mental health research. She is also a dungeon master and long-term D&D 5E player.",
@@ -267,6 +280,19 @@ export const sessionData: Session[] = [
     ],
     title: "Taking Play Seriously: The Value of Session 0 to Psychological Safety in D&D",
     abstract: "In this talk, we will provide the preliminary results of our study investigating how the phenomenon of “Session 0” within Dungeons & Dragons (D&D) facilitates psychologically safe play among adults, and we will lead a group discussion on the experiences of Session 0 among conference delegates. Session 0 refers to a preliminary meeting held before a campaign begins, during which players and the Dungeon Master might discuss expectations, character concepts, boundaries, and play style. While widely discussed in online communities, the impact of Session 0's on play have received limited scholarly attention. To explore this practice, we randomly selected and analysed ten posts, and their affiliated comment threads, from the online message board platform Reddit. Reflexive thematic analysis (Braun and Clarke 2006) was then used to analyse this data and coding was conducted inductively, with themes developed through iterative engagement with the dataset. We found that while there was a wide variety of reported tools and differing values relating to Session 0, five overarching themes were identified: Sparking Interest, Commitment and Expectations, Safety Tools and the Social Contract, Agency versus Collaboration, and Style of Gameplay. Preliminary findings suggest that Session 0 functions to scaffold collaborative adult play by supporting sustained engagement, reducing interpersonal conflict, and fostering shared ownership of the play experience. These sessions thus act as key ritualised mechanisms for supporting adult players to “take play seriously”. Our talk will elaborate on each of the key themes above and will culminate with our plan for future research on this topic, which we hope to be informed by a short Q&A and feedback session.",
+  },
+  {
+    type: "talk",
+    theme: "TTRPG Design and Best Practice",
+    speakers: [
+      {
+        name: "Jemma Channing",
+        affiliation: "Arts Council England",
+        bio: "Jemma Channing is Senior Manager for Creative Health and Change at Arts Council England. Jemma comes from a background in health, working as an occupational therapist in NHS mental health and learning disability services, before moving into the cultural sector, working in museums and galleries to embed creative health programmes to support physical and mental health through engagement in cultural and creative activities. She has presented her work at conferences nationally and internationally, has delivered multiple training courses for the cultural sector alongside guest lecturing on pre and post graduate healthcare courses at Canterbury Christ Church University and University of Winchester.",
+      },
+    ],
+    title: "How can play support health and wellbeing?",
+    abstract: "In this talk, Jemma Channing, Senior Manager for Creative Health and Change Programmes at Arts Council England will share insights from her work at the intersection of creativity and health. Drawing on real world examples and case studies, she will reflect on how tabletop role playing games can foster connection, creativity and care, and how partnerships across sectors including health, culture, education and community can unlock the full potential of play to create meaningful social impact.",
   },
 
   // ── Panels ──────────────────────────────────────────────────────────────
@@ -295,7 +321,7 @@ export const sessionData: Session[] = [
   },
   {
     type: "panel",
-    theme: "Industry Organisers",
+    theme: "Policy",
     speakers: [
       {
         name: "Dr Gray Atherton",
