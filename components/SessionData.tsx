@@ -288,11 +288,11 @@ export const sessionData: Session[] = [
       {
         name: "Jemma Channing",
         affiliation: "Arts Council England",
-        bio: "Jemma Channing is Senior Manager for Creative Health and Change at Arts Council England. Jemma comes from a background in health, working as an occupational therapist in NHS mental health and learning disability services, before moving into the cultural sector, working in museums and galleries to embed creative health programmes to support physical and mental health through engagement in cultural and creative activities. She has presented her work at conferences nationally and internationally, has delivered multiple training courses for the cultural sector alongside guest lecturing on pre and post graduate healthcare courses at Canterbury Christ Church University and University of Winchester.",
+        bio: "Jemma Channing FRSA MRCOT is a Senior Manager for Creative Health and Change at Arts Council England, specialising in the design and delivery of innovative programmes that connect culture, health, and social impact. With a professional background as an occupational therapist in NHS mental health and learning disability services, Jemma brings a unique blend of clinical expertise and creative practice to her work. Jemma is a Fellow of the Royal Society of Arts, a member of the Royal College of Occupational Therapists and sits on the editorial board for The Royal Society for Public Health.",
       },
     ],
     title: "How can play support health and wellbeing?",
-    abstract: "In this talk, Jemma Channing, Senior Manager for Creative Health and Change Programmes at Arts Council England will share insights from her work at the intersection of creativity and health. Drawing on real world examples and case studies, she will reflect on how tabletop role playing games can foster connection, creativity and care, and how partnerships across sectors including health, culture, education and community can unlock the full potential of play to create meaningful social impact.",
+    abstract: "In this keynote, Jemma Channing, Senior Manager for Creative Health and Change Programmes at Arts Council England will share insights from her work at the intersection of creativity and health. Drawing on real world examples and case studies, she will reflect on how tabletop role playing games can foster connection, creativity and care, and how partnerships across sectors including health, culture, education and community can unlock the full potential of play to create meaningful social impact.",
   },
 
   // ── Panels ──────────────────────────────────────────────────────────────
