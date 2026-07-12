@@ -480,4 +480,20 @@ export const sessionData: Session[] = [
     ],
     abstract: "Miniature painting has emerged as a meaningful therapeutic practice, combining focused attention, creativity, and tactile engagement in ways that support mental wellbeing. The deliberate, repetitive actions involved in painting miniature figures encourage mindfulness, helping individuals remain present, regulate attention, and reduce stress through immersion in the process rather than the outcome. This slow, intentional form of creative practice mirrors established mindfulness techniques, offering a calming structure that can be particularly beneficial for emotional regulation and anxiety reduction. Within tabletop role playing game cultures, miniature painting has also become a key point of connection and engagement. Painting miniatures allows players to express identity, personality, and narrative intent through colour, style, and detail, transforming game pieces into personal artefacts rather than generic components. This act of personalisation deepens emotional investment in play while supporting self-expression and a sense of ownership. As such, miniature painting functions both as an individual therapeutic activity and as a social bridge, linking creativity, storytelling, and community participation within the wider TTRPG hobby. Custom Rolling well miniatures were very kindly designed and donated by Modular Worlds, and Two thin Coats kindly donated all of the paints.",
   },
+  {
+    type: "workshop",
+    title: "Young Dragons Workshop",
+    speakers: [
+      {
+        name: "Garry Harper",
+        affiliation: "Director of Operations, Mythic Minds",
+        bio: "Garry Harper, Director of Operations and Lead Storyteller at Mythic Minds, CIC Garry Harper has over a decade of experience in the tabletop games industry. He has collaborated with leading companies including Wizards of the Coast, Modiphius Entertainment, and Son of Oak Game Studio. Garry is also the founder of The Role Play Haven CIC, one of the largest tabletop roleplaying club networks in the UK. Alongside his operational and community work, he is an accomplished writer and game producer, having developed and published multiple tabletop games.",
+      },
+    ],
+    abstract: "Join Garry Harper, founder of Young Dragons from Mythic Minds, for an interactive workshop exploring how tabletop role-playing games such as Dungeons & Dragons can be used to support the development of young people.
+
+Rather than simply talking about the programme, you'll experience it first-hand. Everyone attending will be invited to take part in a series of short scenes based on real activities used in schools. As you play, Garry will explain the purpose behind each exercise, the skills being developed, and the positive outcomes they help achieve, from communication and teamwork to confidence, problem-solving, and emotional regulation.
+
+Whether you're an educator, therapist, youth worker, parent, or simply curious, this workshop offers a practical insight into why role-playing games have become such a powerful educational and therapeutic tool.",
+  },
 ];
