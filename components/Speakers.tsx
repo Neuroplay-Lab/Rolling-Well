@@ -193,17 +193,18 @@ function SessionCard({ session, index }: { session: Session; index: number }) {
             </svg>
             {abstractOpen ? "Hide abstract" : "Read abstract"}
           </button>
-          {abstractOpen && (
+          {abstractOpen && session.abstract?.map((paragraph, index) => (
             <p
               className="font-body text-sm leading-relaxed mt-3 pt-3"
               style={{
                 color: "#4a4030",
                 borderTop: "1px solid rgba(0,0,0,0.07)",
               }}
+              key={index}
             >
-              {session.abstract}
+              {paragraph}
             </p>
-          )}
+          ))}
         </div>
       )}
     </div>
