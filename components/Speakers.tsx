@@ -211,6 +211,30 @@ function SessionCard({ session, index }: { session: Session; index: number }) {
   );
 }
 
+function ScheduleCard() {
+  return (
+    <div className="grid md:grid-cols-1 gap-5 max-w-md">
+            <div
+              className={`reveal reveal-delay-${2} rounded-2xl overflow-hidden`}
+              style={{ border: "1px solid rgba(41,171,226,0.3)", background: "rgba(255,255,255,0.06)" }}
+            >
+              <div style={{ background: "#29abe2" }} className="px-6 py-4 flex items-center justify-between">
+                  <div className="font-display font-black text-white text-xl">Event Schedule</div>
+                  <span className="font-body text-md text-white/80 font-medium mt-0.5">🗓️</span>
+              </div>
+              <div className="p-6" style={{ background: "rgba(255,255,255,0.7)" }}>
+                <p className="font-body text-sm">
+                  The complete schedule for the event is now available and can be downloaded below. 
+                </p>
+                <a href="/RollingWellSchedule.pdf" className="btn-primary block text-center mt-4">
+                  Download Schedule
+                </a>
+              </div>
+            </div>
+        </div>
+  );
+}
+
 // ─── MAIN COMPONENT ───────────────────────────────────────────────────────────
 
 type Filter = "all" | Session["type"];
@@ -258,26 +282,29 @@ export default function Speakers() {
       <div className="max-w-6xl mx-auto">
         <div className="section-label reveal mb-5">Speakers &amp; Schedule</div>
 
-        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
-          <h2
-            className="reveal reveal-delay-1 font-display font-black"
-            style={{
-              fontSize: "clamp(2rem, 4.5vw, 3.2rem)",
-              lineHeight: 1.1,
-              color: "#1a1a1a",
-            }}
-          >
-            Programme
-            <br />
-            <span style={{ color: "#29abe2" }}>2026.</span>
-          </h2>
-          <p
-            className="reveal reveal-delay-2 font-body text-sm max-w-md leading-relaxed"
-            style={{ color: "#5a4a30" }}
-          >
-            Click any speaker name to read their bio, or expand the abstract to
-            learn more about each session.
-          </p>
+        <div className="flex flex-col lg:flex-row justify-between gap-6 mb-8">
+          <div>
+            <h2
+              className="reveal reveal-delay-1 font-display font-black"
+              style={{
+                fontSize: "clamp(2rem, 4.5vw, 3.2rem)",
+                lineHeight: 1.1,
+                color: "#1a1a1a",
+              }}
+            >
+              Programme
+              <br />
+              <span style={{ color: "#29abe2" }}>2026.</span>
+            </h2>
+            <p
+              className="reveal reveal-delay-2 font-body text-sm max-w-lg leading-relaxed"
+              style={{ color: "#5a4a30" }}
+            >
+              Click any speaker name to read their bio, or expand the abstract to
+              learn more about each session.
+            </p>
+          </div>
+          <ScheduleCard />
         </div>
 
         {/* Filter bar */}
