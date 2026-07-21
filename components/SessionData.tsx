@@ -237,19 +237,19 @@ export const sessionData: Session[] = [
     title: "A Positive Modifier for Life: How Bad Dogs, Little Brothers and Cool Confident Liam can make a big difference",
     abstract: ["Tabletop roleplaying game (TTRPG) players have increasingly claimed the mental health and psychological wellbeing benefits of playing. In this talk we will provide first-hand accounts and describe our qualitative research exploring the experiences of adults with mental health problems who play TTRPGs socially and the impact of playing on their psychological wellbeing. Eight adults who self-identified as experiencing mental health problems and had played TTRPGs for at least a year took part in semi-structured interviews. Interviews were transcribed and analysed using interpretive phenomenological analysis (IPA). All participants reported that playing TTRPGs had improved their mental health and wellbeing. IPA produced six group experiential themes which described the mechanisms for these improvements. The study found that playing socially contributed to psychological wellbeing, and in addition to echoing previous findings into the clinical use of TTPRGs, identified novel mechanisms by which this took place. These included factors which make the gaming environment safe enough for benefits to occur, how the specific structures of TTRPGs support initial interactions and the development and maintenance of relationships, how creative expression through TTRPGs contributes to the development of positive identities, and the ways that playing improves mood directly. We will outline clinical implications, including how to explore gamer's experiences with them in order to transfer psychological benefits to real life, recommendations for which mental health service users may benefit from being signposted to TTRPGs in the community, and guidance on how the findings could be used to develop therapeutic TTRPGs and incorporate elements of TTRPGs into group therapy for a range of mental health problems. "],
   },
-  {
-    type: "talk",
-    theme: "TTRPGS in Clinical/Therapeutic Settings",
-    speakers: [
-      {
-        name: "Zoe Thomas",
-        affiliation: "South West London and St Georges NHS Trust ",
-        bio: "Zoe is a Clinical Psychologist who trained at the University of Surrey and now works in Child and Adolescent Mental Health Services in South West London. She is a long-time player of D&D and videogames, interested in reducing barriers to mental health interventions and services. Roll for Insight was completed as part of Zoe's PsychD doctoral thesis, part of her Clinical Psychology training.",
-      },
-    ],
-    title: "Role for Insight: An exploration of Psychological Practitioners' perceptions of Table-top Roleplaying Games",
-    abstract: ["Despite the historical stigma around tabletop roleplaying games (TTRPGs), TTRPGs are once again being popularised. Research indicates there are a number of benefits to playing TTRPGs, dispelling unfounded claims from the past that they were linked to mental illness. This has led to studies exploring how these games may be incorporated into psychological interventions to support recovery. However, whilst recommendations are being shared through a psychological lens in the literature available, there is a gap in knowledge about psychological practitioners' perceptions of these games, and therefore the wider psychological workforce's perceptions of what has been termed Therapeutically Applied Roleplaying Games (TARPGs). Roll for Insight will present how the study aimed to explore this gap in knowledge by surveying psychological practitioners working in the United Kingdom (UK), across a range of settings, and with a range of client groups. The findings and conclusions will be shared, including recommendations and ideas for future research."],
-  },
+  // {
+  //   type: "talk",
+  //   theme: "TTRPGS in Clinical/Therapeutic Settings",
+  //   speakers: [
+  //     {
+  //       name: "Zoe Thomas",
+  //       affiliation: "South West London and St Georges NHS Trust ",
+  //       bio: "Zoe is a Clinical Psychologist who trained at the University of Surrey and now works in Child and Adolescent Mental Health Services in South West London. She is a long-time player of D&D and videogames, interested in reducing barriers to mental health interventions and services. Roll for Insight was completed as part of Zoe's PsychD doctoral thesis, part of her Clinical Psychology training.",
+  //     },
+  //   ],
+  //   title: "Role for Insight: An exploration of Psychological Practitioners' perceptions of Table-top Roleplaying Games",
+  //   abstract: ["Despite the historical stigma around tabletop roleplaying games (TTRPGs), TTRPGs are once again being popularised. Research indicates there are a number of benefits to playing TTRPGs, dispelling unfounded claims from the past that they were linked to mental illness. This has led to studies exploring how these games may be incorporated into psychological interventions to support recovery. However, whilst recommendations are being shared through a psychological lens in the literature available, there is a gap in knowledge about psychological practitioners' perceptions of these games, and therefore the wider psychological workforce's perceptions of what has been termed Therapeutically Applied Roleplaying Games (TARPGs). Roll for Insight will present how the study aimed to explore this gap in knowledge by surveying psychological practitioners working in the United Kingdom (UK), across a range of settings, and with a range of client groups. The findings and conclusions will be shared, including recommendations and ideas for future research."],
+  // },
   {
     type: "talk",
     theme: "TTRPG Design and Best Practice",
@@ -294,6 +294,22 @@ export const sessionData: Session[] = [
     title: "How can play support health and wellbeing?",
     abstract: ["In this keynote, Jemma Channing, Senior Manager for Creative Health and Change Programmes at Arts Council England will share insights from her work at the intersection of creativity and health. Drawing on real world examples and case studies, she will reflect on how tabletop role playing games can foster connection, creativity and care, and how partnerships across sectors including health, culture, education and community can unlock the full potential of play to create meaningful social impact."],
   },
+  {
+    type: "talk",
+    theme: "TTRPG Design and Best Practice",
+    speakers: [
+      {
+        name: "Dr Gray Atherton",
+        affiliation: "Neuroplay lab; University of Plymouth",
+        bio: mainOrganisers.find(
+          (mo) => mo.name === "Dr Gray Atherton & Dr Liam Cross"
+        )?.bio
+      },
+    ],
+    title: "Magic Circles and the Power of Bleed: Harnessing TTRPGs to Facilitate Traditional Therapeutic Processes",
+    abstract: ["This presentation explores how TTRPGs can support therapeutic processes through approaches inspired by Psychodrama, Internal Family Systems, and chair work. Drawing on the concepts of the magic circle and character bleed, and evidence from two studies involving autistic adults, it demonstrates how role-play can foster identity exploration, emotional growth, and the transfer of skills and confidence into everyday life. The findings highlight the potential of TTRPGs as innovative tools for therapeutic practice and community-based support."],
+  },
+
 
   // ── Panels ──────────────────────────────────────────────────────────────
   {
